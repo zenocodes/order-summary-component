@@ -1,0 +1,98 @@
+@font-face {
+    font-family: RHD-Regular;
+    src: url(RedHatDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: RHD-Medium;
+    src: url(RedHatDisplay-Medium.ttf);
+}
+
+@font-face {
+    font-family: RHD-Bold;
+    src: url(RedHatDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: RHD-Black;
+    src: url(RedHatDisplay-Black.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+}
+
+#order-summary {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 450px;
+}
+
+#order-summary > div > img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+#info h1 {
+    font-family: RHD-Bold;
+}
+
+#info p {
+    font-family: RHD-Regular;
+    font-size: 17px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+#info div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+#info span {
+    font-family: RHD-Bold;
+}
+
+#info > div > a {
+    color: hsl(245, 75%, 52%);
+    font-family: RHD-Bold;
+}
+
+button {
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    border: 1px solid hsl(245, 75%, 52%);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: RHD-Black;
+    font-size: 17px;
+}
+
+#info > a {
+    text-decoration: none;
+    color: #000;
+    font-family: RHD-Black;
+    font-size: 17px;
+}
